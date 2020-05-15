@@ -1,0 +1,27 @@
+PARTE 1: Comprender los tipos de datos
+
+podes usar el typeof para saber el tipo de una variable
+
+
+PARTE 2: type coertion
+Es la forma en la cua JS intenta interpretar que tipo de dato tiene cada variable
+Por ej si hago 
+5 + "hola mundo" me va a devolver "5holamundo"
+Convierte el numero en texto
+
+
+
+
+PARTE 3: Asignacion por valor o referencia
+Cuando tengo un dato primitivo, la asignacion es por valor
+
+Cuando lo hago en tipos de datos compuestos como objetos o arrays, la asignacion es por referencia
+por ej
+arr1= [1,2]
+arr2= arr1
+arr2 //Imprime 1,2
+arr2.push(3)
+arr2 //imprime 1,2,3
+arr // 1,2,3
+
+PARTE 4: Operadores de asignacion y comparacion

@@ -1,0 +1,60 @@
+Parte 4 Comenzar con Javascript
+
+Para meter un script en un html usamos la etiqueta <script src=""> </script>
+Gralmente los scripts se ponen al final del doc html
+
+*Los scripts se leen de arriba hacia abajo, en orden
+
+*Es importante sabe usar la consola
+podemos dentro de la consola ir a Console y poner alert ('Hola mundo')
+tmb podemos leer variables, pones el nombre de la variable y te imprime el valor
+
+usas console.log(nombreVar) en el codigo para que se imprima el valor de la variable
+Tmb te dice en que linea y si haces click te muestra el archivo
+
+
+
+Parte 5: Variables y constantes
+*Para declarar variables:
+    let numero = 5;
+
+Se pueden declarar varias variables al mismo tiempo
+    Ej: let numero =5, nombre= 'Alexis',edad,cargo
+
+*Para declarar constantes:
+    const dni= 39962689
+
+Parte 6: Sintaxios (Comentarios, punto y coma, espacios en blanco, case sensitive y expresiones)
+*Comentarios: Se hacen con //
+*Punto y coma: No son necesarios pero te aseguras
+*Espacios en blancos son ignorados, no importante
+
+*Javascript es case sensitive, SE PUEDE HACER ESTO
+    let number =8
+    let Number = 9
+
+
+
+PARTE 6: Tipos de datos
+*Strings: Se pueden usar:
+    " "
+    ' '
+    ` `: los backticks te van a permitir usar una variable
+    por ej: let nombre = `Edteam tiene ${number} años`
+    
+    Ademas puedo poner codigo html
+    let div= `
+        <div class="container">
+            ${nombre}
+        </div> `
+    document.body.innerHtml= div
+    Y SE VA A PONER EN EL html
+
+*Arreglos:
+let numbers = [1,2,3,4,5,6]
+
+*Objetos
+let data = {
+    nombre: 'Alexis'
+    apellido: 'Rodriguez'
+}
